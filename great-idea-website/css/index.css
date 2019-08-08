@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 1200px;
+}
+.container{
+	max-width: 78%;
+	margin: 0px auto;
+}
+.navigation{
+	color: gray;
+	display: inline-block;
+	top: 10px;
+	margin-bottom: 15px;
+	background-color: rebeccapurple;
+	position: fixed;
+	z-index: 1;
+}
+
+a{
+	margin:30px;
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+.logo{
+	display:inline-block;
+}
+
+header{
+	margin-top: 125px;
+	text-align: center;
+	width: 400px;
+}
+h1{
+	font-size: 70px;
+	display: inline-block;
+	width: 380px;
+}
+button{
+	background-color: white;
+	padding: 5px 38px;
+	border: 1px solid black;
+}
+.code-circle{
+	display: inline-block;
+	position: absolute;
+	top: 110px;
+	left: 620px;
+}
+.top-content{
+	margin: 25px 0px 25px 0px;
+}
+.features{
+	max-width:48%;
+	display: inline-block;
+}
+.about{
+	max-width:48%;
+	display: inline-block;
+}
+.bottom-content{
+	margin: 25px 0px 25px 0px;
+}
+.services{
+	display: inline-block;
+	max-width: 32%
+}
+.product{
+	display: inline-block;
+	max-width: 32%;
+}
+.vision{
+	display: inline-block;
+	max-width: 32%;
+}
+p{
+	margin-bottom: 15px;
+}
+footer{
+	text-align: center;
+	margin: 50px;
+}
+hr{
+	margin-top:150px;
+}
+.hr-2{
+	margin-top:40px;
+	margin-bottom:40px;
+}
